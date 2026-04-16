@@ -5,7 +5,7 @@ from keep_alive import keep_alive
 
 keep_alive()
 
-TOKEN = os.getenv("8603385166:AAErpTV-TjEdvznd_RWOmvt_N4hLzpMN-CE")
+TOKEN = os.getenv("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 subscribers = []
